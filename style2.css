@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+header {
+	background-color: rgba(246, 244, 234, 0.5);
+	color: #414141;
+	padding: 20px 0 8px;
+	width: 100%;
+	position: fixed;
+	border-bottom: 1px solid #b9b9b9;
+	
+}
+.selected {
+	text-decoration: underline;
+}
+
+
+#mojeime, 
+#titula {
+	display: inline-block;
+	margin: 0 0 0 20px;
+}
+#titula {
+	font-size: 18px;
+}
+nav {
+
+	margin: -20px 0;
+	float: right;
+}
+nav ul li {
+	display: inline-block;
+	
+	padding-right: 10px;
+	padding-left: 10px;
+		
+}
+a {
+	text-decoration: none;
+	color: #414141;
+}
+nav ul li a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+
+
+
+#main-content {
+	padding: 50px 10px;
+}
+
+}
+.projekat {
+	width: 100%;
+	max-width: 600px;
+	height: 380px;
+	margin: 70px auto;
+	background-color: #f8f8f9;
+	border: 1px solid #b9b9b9;
+	border-radius: 5px;
+	overflow: hidden;
+
+}
+p {
+	opacity: 0.8;
+}
+
+footer {
+	margin-bottom: 10px;
+	text-align: center;
+}
+footer span {
+	font-size: 18px !important; 
+	color: #85898a;
+	padding: 0 10px;
+}
+.mreze:hover {
+	opacity: 0.8;		
+}
+#jedan:hover,
+#dva:hover,
+#tri:hover {
+	font-size: 30px!important;
+	color: #4B64F2;
+}
+	
+
+
+@media screen and (min-width: 877px) and (max-width: 2450px) {
+
+	.projekat {
+		margin: 1.8%;
+	}
+	article {
+		display: inline-block;
+	}
+	header {
+		padding-bottom: 10px;
+	}
+
+	#main-content {
+		padding-top: 100px;
+	}
+	#kontakt-detalji {
+	float: right;
+	display: inline-block;
+	margin-right: 100px;
+}
+}
+
+@media screen and (max-width: 877px) {
+
+	#kontakt-detalji {
+		float: left;  
+		margin-left: 25px;
+	}
+
+	footer {
+		clear: both;
+	}
+	#main-content {
+		padding-top: 100px;
+	}
+}
+
+	
+
+ 
+
+p {
+width: 97%;
+}
+
+
+#kontakt-info {
+	margin: 0 0 0 25px; 
+	width: 50%;
+	display: inline-block;
+}
+/*#kontakt-detalji {
+	float: right;
+	display: inline-block;
+	margin-right: 100px;
+}*/
+ul li span {
+	padding: 5px;
+
+}
+#kontakt-detalji ul li span {
+margin-right: 10px;
+}
+
+aside ul li a:hover {
+	/*opacity: 0.8;*/
+	text-decoration: underline;
+	color: #E82045;
+}
+
+
+

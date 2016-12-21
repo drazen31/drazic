@@ -1,0 +1,128 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+header {
+	background-color: rgba(246, 244, 234, 0.5);
+	color: #414141;
+	padding: 20px 0 8px;
+	width: 100%;
+	position: fixed;
+	border-bottom: 1px solid #b9b9b9;
+	
+}
+.selected {
+	text-decoration: underline;
+}
+
+#mojeime, 
+#titula {
+	display: inline-block;
+	margin: 0 0 0 20px;
+}
+#titula {
+	font-size: 18px;
+}
+nav {
+
+	margin: -20px 0;
+	float: right;
+}
+nav ul li {
+	display: inline-block;
+	
+	padding-right: 10px;
+	padding-left: 10px;
+		
+}
+a {
+	text-decoration: none;
+	color: #414141;
+}
+p {
+	opacity: 0.8;
+}
+
+nav ul li a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+
+
+#main-content {
+	padding: 50px 10px;
+}
+
+}
+.projekat {
+	width: 100%;
+	max-width: 600px;
+	height: 380px;
+	margin: 70px auto;
+	background-color: #f8f8f9;
+	border: 1px solid #b9b9b9;
+	border-radius: 5px;
+	overflow: hidden;
+
+}
+section {
+	padding: 10px 13px;
+}
+footer {
+	margin-bottom: 10px;
+	text-align: center;
+}
+footer span {
+	font-size: 18px !important; 
+	color: #85898a;
+	padding: 0 10px;
+}
+.mreze:hover {
+	opacity: 0.8;
+
+	
+}
+
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-facebook:hover {
+	font-size: 30px!important;
+	color: #4B64F2;
+}
+
+
+
+ #profile-photo {
+ 	
+	max-width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+	border-radius: 50%;
+	float: left;
+	/*padding: 20px;*/
+	margin-right: 20px;
+	display: block;
+}
+
+p {
+width: 90%;
+}
+
+@media screen and (max-width: 677px) {
+
+	#profile-photo {
+		float: none;
+		margin: 0 auto 30px;
+	}
+	
+}
+
+footer {
+	clear: both;
+}
+.container {
+	width: 90%;
+	height: 100%;
+	margin-top: 100px;
+}
+
